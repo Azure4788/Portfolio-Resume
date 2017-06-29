@@ -1,0 +1,68 @@
+/*
+    Purpose: To style all pages except home(index.html)
+    File Name: pages.css
+    Date: 6/7/2017,6/12/17
+    Programmer: Azure Hippe
+*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px;    
+}
+header{
+    margin: auto;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 30pt;
+    text-align: center;
+}
+div{   
+}
+main{
+    border: 4px solid #000000;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    
+}
+li{
+    border: 2px dashed #000000;
+    padding: 30px;
+    margin: 20px;
+    width: 50%;
+    float: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 100px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15pt;
+}
+table{  
+}
+nav{
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+nav a{
+    
+}
+nav li{
+    max-width: 50%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 150px
+    
+}
+.headertext{
+    text-align: center;
+    font-family: cursive;
+    font-size: 16pt;
+    font-weight: bold;
+}
